@@ -1,0 +1,622 @@
+[
+  {
+    "ticket_id": "TKT-117001",
+    "assigned_priority": "High",
+    "inferred_severity": "High",
+    "mismatch_type": "Consistent",
+    "severity_delta": "0",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "error, failed",
+        "weight": "0.45 \u2014 keyword score 2/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 2/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Chat",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'High' but inferred signals suggest 'High'. Keyword analysis detected 'error, failed', indicating a High concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 2/3. The 0-level delta classifies this as a 'Consistent' case.",
+    "confidence": "1.00"
+  },
+  {
+    "ticket_id": "TKT-117002",
+    "assigned_priority": "Low",
+    "inferred_severity": "Medium",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "none",
+        "weight": "0.45 \u2014 keyword score 0/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 0/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Web Form",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Low' but inferred signals suggest 'Medium'. Keyword analysis detected 'none', indicating a Low concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 0/3. The 1-level delta classifies this as a 'Hidden Crisis' case.",
+    "confidence": "1.00"
+  },
+  {
+    "ticket_id": "TKT-117003",
+    "assigned_priority": "Low",
+    "inferred_severity": "High",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+2",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "error",
+        "weight": "0.45 \u2014 keyword score 2/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 0/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Web Form",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Low' but inferred signals suggest 'High'. Keyword analysis detected 'error', indicating a High concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 0/3. The 2-level delta classifies this as a 'Hidden Crisis' case.",
+    "confidence": "1.00"
+  },
+  {
+    "ticket_id": "TKT-117005",
+    "assigned_priority": "High",
+    "inferred_severity": "High",
+    "mismatch_type": "Consistent",
+    "severity_delta": "0",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "none",
+        "weight": "0.45 \u2014 keyword score 1/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 2/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Web Form",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'High' but inferred signals suggest 'High'. Keyword analysis detected 'none', indicating a Medium concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 2/3. The 0-level delta classifies this as a 'Consistent' case.",
+    "confidence": "1.00"
+  },
+  {
+    "ticket_id": "TKT-117007",
+    "assigned_priority": "Low",
+    "inferred_severity": "Medium",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "none",
+        "weight": "0.45 \u2014 keyword score 0/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 0/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Email",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Low' but inferred signals suggest 'Medium'. Keyword analysis detected 'none', indicating a Low concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 0/3. The 1-level delta classifies this as a 'Hidden Crisis' case.",
+    "confidence": "1.00"
+  },
+  {
+    "ticket_id": "TKT-117008",
+    "assigned_priority": "Medium",
+    "inferred_severity": "Medium",
+    "mismatch_type": "Consistent",
+    "severity_delta": "0",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "none",
+        "weight": "0.45 \u2014 keyword score 0/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 2/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 1/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Web Form",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Medium' but inferred signals suggest 'Medium'. Keyword analysis detected 'none', indicating a Low concern. Semantic embedding clustering placed this ticket in severity band 2/3, and resolution time proxy scored 1/3. The 0-level delta classifies this as a 'Consistent' case.",
+    "confidence": "1.00"
+  },
+  {
+    "ticket_id": "TKT-117009",
+    "assigned_priority": "Medium",
+    "inferred_severity": "High",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "error",
+        "weight": "0.45 \u2014 keyword score 1/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 1/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Chat",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Medium' but inferred signals suggest 'High'. Keyword analysis detected 'error', indicating a Medium concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 1/3. The 1-level delta classifies this as a 'Hidden Crisis' case.",
+    "confidence": "1.00"
+  },
+  {
+    "ticket_id": "TKT-117011",
+    "assigned_priority": "Medium",
+    "inferred_severity": "High",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "error",
+        "weight": "0.45 \u2014 keyword score 1/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 1/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Web Form",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Medium' but inferred signals suggest 'High'. Keyword analysis detected 'error', indicating a Medium concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 1/3. The 1-level delta classifies this as a 'Hidden Crisis' case.",
+    "confidence": "0.97"
+  },
+  {
+    "ticket_id": "TKT-117012",
+    "assigned_priority": "Medium",
+    "inferred_severity": "Medium",
+    "mismatch_type": "Consistent",
+    "severity_delta": "0",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "none",
+        "weight": "0.45 \u2014 keyword score 0/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 1/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Web Form",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Medium' but inferred signals suggest 'Medium'. Keyword analysis detected 'none', indicating a Low concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 1/3. The 0-level delta classifies this as a 'Consistent' case.",
+    "confidence": "1.00"
+  },
+  {
+    "ticket_id": "TKT-117014",
+    "assigned_priority": "Medium",
+    "inferred_severity": "High",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "error",
+        "weight": "0.45 \u2014 keyword score 1/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 1/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Email",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Medium' but inferred signals suggest 'High'. Keyword analysis detected 'error', indicating a Medium concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 1/3. The 1-level delta classifies this as a 'Hidden Crisis' case.",
+    "confidence": "1.00"
+  },
+  {
+    "ticket_id": "TKT-117015",
+    "assigned_priority": "Low",
+    "inferred_severity": "Medium",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "none",
+        "weight": "0.45 \u2014 keyword score 0/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 0/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Email",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Low' but inferred signals suggest 'Medium'. Keyword analysis detected 'none', indicating a Low concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 0/3. The 1-level delta classifies this as a 'Hidden Crisis' case.",
+    "confidence": "0.97"
+  },
+  {
+    "ticket_id": "TKT-117016",
+    "assigned_priority": "Medium",
+    "inferred_severity": "Medium",
+    "mismatch_type": "Consistent",
+    "severity_delta": "0",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "none",
+        "weight": "0.45 \u2014 keyword score 0/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 2/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 1/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Chat",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Medium' but inferred signals suggest 'Medium'. Keyword analysis detected 'none', indicating a Low concern. Semantic embedding clustering placed this ticket in severity band 2/3, and resolution time proxy scored 1/3. The 0-level delta classifies this as a 'Consistent' case.",
+    "confidence": "1.00"
+  },
+  {
+    "ticket_id": "TKT-117018",
+    "assigned_priority": "High",
+    "inferred_severity": "Medium",
+    "mismatch_type": "False Alarm",
+    "severity_delta": "-1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "none",
+        "weight": "0.45 \u2014 keyword score 0/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 2/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Chat",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'High' but inferred signals suggest 'Medium'. Keyword analysis detected 'none', indicating a Low concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 2/3. The 1-level delta classifies this as a 'False Alarm' case.",
+    "confidence": "1.00"
+  },
+  {
+    "ticket_id": "TKT-117019",
+    "assigned_priority": "High",
+    "inferred_severity": "High",
+    "mismatch_type": "Consistent",
+    "severity_delta": "0",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "none",
+        "weight": "0.45 \u2014 keyword score 1/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 2/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Chat",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'High' but inferred signals suggest 'High'. Keyword analysis detected 'none', indicating a Medium concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 2/3. The 0-level delta classifies this as a 'Consistent' case.",
+    "confidence": "1.00"
+  },
+  {
+    "ticket_id": "TKT-117020",
+    "assigned_priority": "Low",
+    "inferred_severity": "Medium",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "failing",
+        "weight": "0.45 \u2014 keyword score 1/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 0/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Email",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Low' but inferred signals suggest 'Medium'. Keyword analysis detected 'failing', indicating a Medium concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 0/3. The 1-level delta classifies this as a 'Hidden Crisis' case.",
+    "confidence": "1.00"
+  },
+  {
+    "ticket_id": "TKT-117021",
+    "assigned_priority": "Low",
+    "inferred_severity": "Medium",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "none",
+        "weight": "0.45 \u2014 keyword score 0/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 0/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Chat",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Low' but inferred signals suggest 'Medium'. Keyword analysis detected 'none', indicating a Low concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 0/3. The 1-level delta classifies this as a 'Hidden Crisis' case.",
+    "confidence": "1.00"
+  },
+  {
+    "ticket_id": "TKT-117022",
+    "assigned_priority": "Low",
+    "inferred_severity": "Medium",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "none",
+        "weight": "0.45 \u2014 keyword score 0/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 2/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 0/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Email",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Low' but inferred signals suggest 'Medium'. Keyword analysis detected 'none', indicating a Low concern. Semantic embedding clustering placed this ticket in severity band 2/3, and resolution time proxy scored 0/3. The 1-level delta classifies this as a 'Hidden Crisis' case.",
+    "confidence": "0.97"
+  },
+  {
+    "ticket_id": "TKT-117023",
+    "assigned_priority": "Low",
+    "inferred_severity": "Medium",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "none",
+        "weight": "0.45 \u2014 keyword score 0/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 0/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Web Form",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Low' but inferred signals suggest 'Medium'. Keyword analysis detected 'none', indicating a Low concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 0/3. The 1-level delta classifies this as a 'Hidden Crisis' case.",
+    "confidence": "0.99"
+  },
+  {
+    "ticket_id": "TKT-117024",
+    "assigned_priority": "Low",
+    "inferred_severity": "Medium",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "none",
+        "weight": "0.45 \u2014 keyword score 0/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 0/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Web Form",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Low' but inferred signals suggest 'Medium'. Keyword analysis detected 'none', indicating a Low concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 0/3. The 1-level delta classifies this as a 'Hidden Crisis' case.",
+    "confidence": "0.96"
+  },
+  {
+    "ticket_id": "TKT-117025",
+    "assigned_priority": "Medium",
+    "inferred_severity": "High",
+    "mismatch_type": "Hidden Crisis",
+    "severity_delta": "+1",
+    "feature_evidence": [
+      {
+        "signal": "keyword",
+        "value": "none",
+        "weight": "0.45 \u2014 keyword score 1/3"
+      },
+      {
+        "signal": "embedding_cluster",
+        "value": "Cluster severity score: 3/3",
+        "weight": "0.35 \u2014 semantic similarity to severity anchors"
+      },
+      {
+        "signal": "resolution_time",
+        "value": "N/A",
+        "interpretation": "RT severity bucket: 1/3"
+      },
+      {
+        "signal": "channel",
+        "value": "Email",
+        "weight": "Structured metadata feature"
+      }
+    ],
+    "constraint_analysis": "The ticket was assigned priority 'Medium' but inferred signals suggest 'High'. Keyword analysis detected 'none', indicating a Medium concern. Semantic embedding clustering placed this ticket in severity band 3/3, and resolution time proxy scored 1/3. The 1-level delta classifies this as a 'Hidden Crisis' case.",
+    "confidence": "1.00"
+  }
+]

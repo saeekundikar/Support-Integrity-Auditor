@@ -1,0 +1,16 @@
+{
+  "total_tickets": 20000,
+  "mismatch_count": 13452,
+  "consistent_count": 6548,
+  "mismatch_pct": 67.26,
+  "mismatch_type_counts": {
+    "Hidden Crisis": 10602,
+    "Consistent": 6548,
+    "False Alarm": 2850
+  },
+  "signal_agreement": {
+    "kw_vs_emb": 0.0023,
+    "kw_vs_rt": 0.4053,
+    "emb_vs_rt": 0.0844
+  }
+}

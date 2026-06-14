@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+  Consistent       0.98      0.99      0.98       982
+    Mismatch       0.99      0.99      0.99      2018
+
+    accuracy                           0.99      3000
+   macro avg       0.98      0.99      0.99      3000
+weighted avg       0.99      0.99      0.99      3000
