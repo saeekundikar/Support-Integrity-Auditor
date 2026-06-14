@@ -1,0 +1,31 @@
+# SIA — Support Integrity Auditor
+# Python 3.10+
+
+# Core ML
+torch==2.2.1
+transformers==4.40.2
+peft==0.11.1
+accelerate==0.30.1
+datasets==2.19.1
+bitsandbytes==0.43.1
+
+# NLP / Embeddings
+sentence-transformers==2.7.0
+
+# Classical ML
+scikit-learn==1.4.2
+imbalanced-learn==0.12.2
+
+# Data
+pandas==2.2.2
+numpy==1.26.4
+
+# Viz & App
+streamlit==1.35.0
+plotly==5.22.0
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# Utilities
+tqdm==4.66.4
+kaggle==1.6.14
